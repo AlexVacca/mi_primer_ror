@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Codcargo:</strong>
+  <%= @cargo.codcargo %>
+</p>
+
+<p>
+  <strong>String:</strong>
+  <%= @cargo.string %>
+</p>
+
+<p>
+  <strong>Nombrecargo:</strong>
+  <%= @cargo.nombrecargo %>
+</p>
+
+<%= link_to 'Edit', edit_cargo_path(@cargo) %> |
+<%= link_to 'Back', cargos_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  codciud: MyString
+  string: MyString
+  nombreciud: MyString
+
+two:
+  codciud: MyString
+  string: MyString
+  nombreciud: MyString
